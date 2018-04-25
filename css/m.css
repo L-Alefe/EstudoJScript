@@ -1,0 +1,34 @@
+div#new-div{
+	background-color: #EEEEEE;
+	border: 1px solid #EEEEEE;
+	height: auto;	
+	width: 270px;
+	padding-left: 20px;
+	padding-right: 20px; 
+	margin-left: 235px;
+}
+
+img.imgGoogle{
+	margin-left: 100px;
+}
+
+p#titulo{
+	font-size: 40px;	
+
+}
+
+div#divImgs{
+	
+}
+
+div#citacaoTexto{
+	color: #696969;
+	text-decoration: center;
+	margin-left: -30px;
+	margin-top:
+
+}
+div#citacao{
+	margin-top: 50px;
+	margin-left: 230px;
+}

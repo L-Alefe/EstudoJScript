@@ -1,0 +1,34 @@
+div#new-div{
+	background-color: #EEEEEE;
+	border: 1px solid #EEEEEE;
+	height: auto;	
+	width: 270px;
+	float: right;
+	margin-right: 200px;
+	padding: 20px;
+
+}
+
+p#titulo{
+	font-size: 40px;
+	margin-top: 10px;
+
+}
+
+div.divImgs{
+	margin-top: px;
+	padding-left: px;
+	width: 700px;
+	margin-left: 100px;
+}
+
+div#citacaoTexto{
+	color: #696969;
+	text-decoration: center;
+
+}
+div#citacao{
+	margin-top: 50px;
+	margin-left: 310px;
+	float: left;
+}

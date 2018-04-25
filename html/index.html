@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+	
+		<meta charset = "utf-8" />
+		<title>Crie sua conta</title>
+		<link rel="stylesheet" type="text/css" href="../framework/pure.css" />
+		<link rel="icon" href="../imgs/logoGoogle.png" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="../css/p.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 500px)" href="../css/m.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 1350px)" href="../css/g.css" />
+
+	</head>
+	<body>
+		<div class="login">
+			<img src="../imgs/google.png" width="110px" title="Google"  />
+			<button class="pure-button pure-button-primary" id="btnComeco">Login</button>
+		</div>
+		<center><p id="titulo">Crie sua conta do Google</p></center><br />
+		<div class="divImgs">
+			<img class="imgGoogle" src="../imgs/logoGoogle.png" title="Google" alt="GoogleImg" width="50px" />
+			<img class="imgGoogle" src="../imgs/youtubeImg.png" title="Youtube" alt="youtubeImg" width="50px" />
+			<img class="imgGoogle" src="../imgs/gmailImg.ico" title="Gmail" alt="youtubeImg" width="50px" />
+			<img class="imgGoogle" src="../imgs/chromeImg.png" title="Chrome" alt="youtubeImg" width="50px" />
+		
+		</div>
+
+			<div id="citacao">
+				<img src="../imgs/cadernoImg.png" title="Caderneta" alt="CadernoImg" width="300px" />
+				<div id="citacaoTexto">
+					<p>Anote tudo no seu caderno. Um dia, irá servir. <br /><cite>Lemuel Álefe</cite></p>
+				</div>
+			</div>
+		<div id="new-div" />
+			<form class="pure-form" name="login">
+				  <fieldset>
+						<label for="name">Nome</label><br />
+						<input class="pure-input-1" name="nome" type="text" required placeholder="Nome" />
+						<input class="pure-input-1" name="sobreNome" type="text" required placeholder="Sobrenome" />
+				
+						<br /><br />
+
+						<label for="email">Escolha seu nome de usuário</label>
+						<input class="pure-input-1"  name="usuario" type="email" required placeholder="@gmail.com" />
+
+						<br /><br />
+
+						<label for="password">Crie sua senha</label>
+						<input class="pure-input-1"  name="senha" type="password" required placeholder="Senha" />
+
+						<br /><br />
+
+						<label for="password">Confirme sua senha</label>
+						<input class="pure-input-1"  name="confirmacaoSenha" type="password" required placeholder="Confirmarsenha" />
+							
+						<br /><br />
+
+						<label for="number">Telefone</label>
+						<input class="pure-input-1" name="telefone" type="tel" required placeholder="+55"/>
+
+						<br /><br />
+				
+						<label for="number">Data de nascimento</label>
+						<input class="pure-input-1" name="data" type="date" required placeholder=""/>
+
+						<br /><br />
+
+						<label for="text">Local</label>
+						<input class="pure-input-1" name="local" type="text" required placeholder="Local"/>
+
+						<br /><br />
+								
+						<input class="pure-button pure-button-primary" type="submit" name="envio" id="enviar" />
+					</div>
+				</fieldset>		
+			</form>
+	</body>
+	<script src="../js/func.js"></script>
+</html>
